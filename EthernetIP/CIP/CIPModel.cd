@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EIPNET.CIP.CommonPaths" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAIQAFAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>CIP\CommonPaths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EIPNET.CIP.MR_Request" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQgAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\MR_Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.MR_Response" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAAQAAAAAAAAAAAACAAAAAAAgAAQBAAA=</HashCode>
+      <FileName>CIP\MR_Response.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.ForwardOpen_Request" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AggIAAFJEAgAACQAAAIAIAgAAAABAIAAAAAAAAAAAEA=</HashCode>
+      <FileName>CIP\ForwardOpen_Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.ForwardOpen_Success" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAJAAgAAAAAAAIAIAEAIAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\ForwardOpen_Success.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.ForwardOpen_Fail" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAgAAAAAACIAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\ForwardOpen_Fail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.ForwardClose_Request" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIEAgAACQAAAIAIAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\ForwardClose_Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.ForwardClose_Success" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAgAAAAAAAIAIAEAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\ForwardClose_Success.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.ForwardClose_Fail" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAgAAAAAACIAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\ForwardClose_Fail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.UnconnectedSend" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAgAAqQAAAAAAAAAAAAAAAAgAAQAAABAAAA=</HashCode>
+      <FileName>CIP\UnconnectedSend.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.UnconnectedSend_Response" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAgAAQAAAA=</HashCode>
+      <FileName>CIP\UnconnectedSend_Response.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.UnconnectedSend_Failure" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABAAgAAAAAACAAAAAAAAACAAAAAAAAAAQBAAA=</HashCode>
+      <FileName>CIP\UnconnectedSend_Failure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.GetConnectionData_Request" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\GetConnectionData_Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.GetConnectionData_Response" Collapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwBAAAAIAAgAAAABAAIAIQAABAADAQACAAAAAACAIAE=</HashCode>
+      <FileName>CIP\GetConnectionData_Response.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EIPNET.CIP.SearchConnectionData_Request" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAQAAAIAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIP\SearchConnectionData_Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="EIPNET.CIP.GeneralStatusCode" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAQBgEAgEQBCEEpAAFAKAwEBhAIAQAAABAAABICCAw=</HashCode>
+      <FileName>CIP\GeneralStatusCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EIPNET.CIP.CMObject_Attributes" Collapsed="true">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIQAAAgAAABAAAAAIBAAAAAAAAAQABgAAgAAAQA=</HashCode>
+      <FileName>CIP\CMObject_Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EIPNET.CIP.ConnectionObject_Attributes" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACACAAAiWAAgAADAAAAAAAAAAAAAAgAABYAgAAE=</HashCode>
+      <FileName>CIP\ConnectionObject_Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EIPNET.CIP.ObjectClass" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAIAAAAAAAAAAAEAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CIP\ObjectClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EIPNET.CIP.RoutingErrors" Collapsed="true">
+    <Position X="14.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAABAAAAAAAIAAAQAAAAAAAA=</HashCode>
+      <FileName>CIP\RoutingErrors.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

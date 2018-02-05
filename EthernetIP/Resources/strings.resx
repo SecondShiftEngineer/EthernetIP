@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneralStatusDesc_0x00" xml:space="preserve">
+    <value>Service was successfully performed by the object specified</value>
+  </data>
+  <data name="GeneralStatusDesc_0x01" xml:space="preserve">
+    <value>A connection related service failed along the connection path.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x02" xml:space="preserve">
+    <value>Resources needed for the object to perform the requested service were unavailable.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x03" xml:space="preserve">
+    <value>A parameter associated with the request was invalid. This code is used when a parameter does not meet the requirements of this specification and/or the requirements defined in an Application Object Specification.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x04" xml:space="preserve">
+    <value>The path segment identifier or the segment syntax was not understood by the processing node. Path processing shall stop when a path segment error is encountered.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x05" xml:space="preserve">
+    <value>The path is referencing an object class, instance, or structure element that is not known or is not contained in the processing node. Path processing shall stop when a path destination unknown error is encountered.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x06" xml:space="preserve">
+    <value>Only part of the expected data was transferred.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x07" xml:space="preserve">
+    <value>The messaging connection was lost.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x08" xml:space="preserve">
+    <value>The requested service was not implemented or was not defined for this Object Class/Instance.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x09" xml:space="preserve">
+    <value>Invalid attribute data detected.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x0A" xml:space="preserve">
+    <value>An attribute in the Get_Attribute_List or Set_Attribute_List response has a non-zero status.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x0B" xml:space="preserve">
+    <value>The object is already in the mode/state being requested by the service.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x0C" xml:space="preserve">
+    <value>The object cannot perform the requested service in its current mode/state.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x0D" xml:space="preserve">
+    <value>The requested instance of the object to be created already exists.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x0E" xml:space="preserve">
+    <value>A request to modify a non-modifiable attribute was received.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x0F" xml:space="preserve">
+    <value>A permission/privilage check failed.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x10" xml:space="preserve">
+    <value>The devices current mode/state prohibits the execution of the requested service.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x11" xml:space="preserve">
+    <value>The data to be transmitted in the response buffer is larger than the allocated response buffer.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x12" xml:space="preserve">
+    <value>The service specified an operation that is going to fragment a primitive data value, i.e. half a REAL data type.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x13" xml:space="preserve">
+    <value>The service did not supply enough data to perform the specified operation.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x14" xml:space="preserve">
+    <value>The attribute specified in the request is not supported.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x15" xml:space="preserve">
+    <value>The service supplied more data than was expected.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x16" xml:space="preserve">
+    <value>The object specified does not exist in the device.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x17" xml:space="preserve">
+    <value>The fragmentation sequence for this service is not currently active for this data.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x18" xml:space="preserve">
+    <value>The attribute data of this object was not saved prior to the requested service.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x19" xml:space="preserve">
+    <value>The attribute data of this object was not saved due to a failure during the attempt.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x1A" xml:space="preserve">
+    <value>The service request packet was too large for transmission on a network in the path to the destination. The routing device was forced to abort the service.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x1B" xml:space="preserve">
+    <value>The service response packet was too large for transmission on a network in the path to the destination. The routing device was forced to abort the service.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x1C" xml:space="preserve">
+    <value>The service did not supply an attribute in a list of attributes that was needed by the service to perform the requested behavior.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x1D" xml:space="preserve">
+    <value>The service is returning the list of attributes supplied with status information for those attributes that were invalid.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x1E" xml:space="preserve">
+    <value>An embedded service resulted in an error.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x1F" xml:space="preserve">
+    <value>A vendor specific error has occurred.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x20" xml:space="preserve">
+    <value>A parameter associated with the request was invalid.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x21" xml:space="preserve">
+    <value>An attempt was made to write to a write-once medium (e.g.WORM drive, PROM) that has already been written, or to modify a value that cannot be changed once established.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x22" xml:space="preserve">
+    <value>An invalid reply is received (e.g. reply service code does not mach the request service code, or reply message is shorter than the minimum expected reply size).</value>
+  </data>
+  <data name="GeneralStatusDesc_0x25" xml:space="preserve">
+    <value>The Key Segment that was included as the first segment in the path does not match the destination module. The object specific status shall indicate which part of the key check failed.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x26" xml:space="preserve">
+    <value>The size of the path which was sent with the Service Request is either not large enough to allow the Request to be routed to an object or too much routing data was included.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x27" xml:space="preserve">
+    <value>An attempt was made to set an attribute that is not able to be set at this time.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x28" xml:space="preserve">
+    <value>The Member ID specified in the request does not exist in the specified Class/Instance/Attribute.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x29" xml:space="preserve">
+    <value>A request to modify a non-modifiable member was received.</value>
+  </data>
+  <data name="GeneralStatusDesc_0x2A" xml:space="preserve">
+    <value>This error may be reported by DeviceNet group 2 only servers with 4K or less code space and only in place of Service Not Supported, Attribute Not Supported, and Attribute Not Settable.</value>
+  </data>
+  <data name="GeneralStatusName_0x00" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="GeneralStatusName_0x01" xml:space="preserve">
+    <value>Connection Failure</value>
+  </data>
+  <data name="GeneralStatusName_0x02" xml:space="preserve">
+    <value>Resource Unavailable</value>
+  </data>
+  <data name="GeneralStatusName_0x03" xml:space="preserve">
+    <value>Invalid Parameter Value</value>
+  </data>
+  <data name="GeneralStatusName_0x04" xml:space="preserve">
+    <value>Path Segment Error</value>
+  </data>
+  <data name="GeneralStatusName_0x05" xml:space="preserve">
+    <value>Path Destination Unknown</value>
+  </data>
+  <data name="GeneralStatusName_0x06" xml:space="preserve">
+    <value>Partial Transfer</value>
+  </data>
+  <data name="GeneralStatusName_0x07" xml:space="preserve">
+    <value>Connection Lost</value>
+  </data>
+  <data name="GeneralStatusName_0x08" xml:space="preserve">
+    <value>Service Not Supported</value>
+  </data>
+  <data name="GeneralStatusName_0x09" xml:space="preserve">
+    <value>Invalid Attribute Value</value>
+  </data>
+  <data name="GeneralStatusName_0x0A" xml:space="preserve">
+    <value>Attribute List Error</value>
+  </data>
+  <data name="GeneralStatusName_0x0B" xml:space="preserve">
+    <value>Already in Requested Mode/State</value>
+  </data>
+  <data name="GeneralStatusName_0x0C" xml:space="preserve">
+    <value>Object State Conflict</value>
+  </data>
+  <data name="GeneralStatusName_0x0D" xml:space="preserve">
+    <value>Object Already Exists</value>
+  </data>
+  <data name="GeneralStatusName_0x0E" xml:space="preserve">
+    <value>Attribute Not Settable</value>
+  </data>
+  <data name="GeneralStatusName_0x0F" xml:space="preserve">
+    <value>Privilage Violation</value>
+  </data>
+  <data name="GeneralStatusName_0x10" xml:space="preserve">
+    <value>Device State Conflict</value>
+  </data>
+  <data name="GeneralStatusName_0x11" xml:space="preserve">
+    <value>Reply Data Too Large</value>
+  </data>
+  <data name="GeneralStatusName_0x12" xml:space="preserve">
+    <value>Fragmentation of a Primitive Value</value>
+  </data>
+  <data name="GeneralStatusName_0x13" xml:space="preserve">
+    <value>Not Enough Data</value>
+  </data>
+  <data name="GeneralStatusName_0x14" xml:space="preserve">
+    <value>Attribute Not Supported</value>
+  </data>
+  <data name="GeneralStatusName_0x15" xml:space="preserve">
+    <value>Too Much Data</value>
+  </data>
+  <data name="GeneralStatusName_0x16" xml:space="preserve">
+    <value>Object Does Not Exist</value>
+  </data>
+  <data name="GeneralStatusName_0x17" xml:space="preserve">
+    <value>Service Fragmentation Sequence Not In Progress</value>
+  </data>
+  <data name="GeneralStatusName_0x18" xml:space="preserve">
+    <value>No Stored Attribute Data</value>
+  </data>
+  <data name="GeneralStatusName_0x19" xml:space="preserve">
+    <value>Store Operation Failure</value>
+  </data>
+  <data name="GeneralStatusName_0x1A" xml:space="preserve">
+    <value>Routing Failure, Request Packet Too Large</value>
+  </data>
+  <data name="GeneralStatusName_0x1B" xml:space="preserve">
+    <value>Routing Failure, Response Packet Too Large</value>
+  </data>
+  <data name="GeneralStatusName_0x1C" xml:space="preserve">
+    <value>Missing Attribute List Entry Data</value>
+  </data>
+  <data name="GeneralStatusName_0x1D" xml:space="preserve">
+    <value>Invalid Attribute Value List</value>
+  </data>
+  <data name="GeneralStatusName_0x1E" xml:space="preserve">
+    <value>Embedded Service Error</value>
+  </data>
+  <data name="GeneralStatusName_0x1F" xml:space="preserve">
+    <value>Vendor Specific Error</value>
+  </data>
+  <data name="GeneralStatusName_0x20" xml:space="preserve">
+    <value>Invalid Parameter</value>
+  </data>
+  <data name="GeneralStatusName_0x21" xml:space="preserve">
+    <value>Write-Once Value or Medium Already Written</value>
+  </data>
+  <data name="GeneralStatusName_0x22" xml:space="preserve">
+    <value>Invalid Reply Received</value>
+  </data>
+  <data name="GeneralStatusName_0x25" xml:space="preserve">
+    <value>Key Failure in Path</value>
+  </data>
+  <data name="GeneralStatusName_0x26" xml:space="preserve">
+    <value>Path Size Invalid</value>
+  </data>
+  <data name="GeneralStatusName_0x27" xml:space="preserve">
+    <value>Unexpected Attribute in List</value>
+  </data>
+  <data name="GeneralStatusName_0x28" xml:space="preserve">
+    <value>Invalid Member ID</value>
+  </data>
+  <data name="GeneralStatusName_0x29" xml:space="preserve">
+    <value>Member Not Settable</value>
+  </data>
+  <data name="GeneralStatusName_0x2A" xml:space="preserve">
+    <value>Group 2 Only Server General Failure</value>
+  </data>
+  <data name="GeneralStatus_Unknown" xml:space="preserve">
+    <value>Unknown General Status</value>
+  </data>
+</root>
